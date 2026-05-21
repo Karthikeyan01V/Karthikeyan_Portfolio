@@ -1,69 +1,95 @@
-# Karthikeyan V — Offensive Security Portfolio
+# Karthikeyan V | Senior Security Analyst
 
-> **Live at:** https://karthikeyan01v.github.io/Karthikeyan_Portfolio
-
-Elite cybersecurity portfolio for **Karthikeyan V**, Senior Security Analyst at Accenture — specialising in Web Application Penetration Testing, API Security, AI/LLM Security, and Cloud Security.
+> **Offensive Security Engineer | Penetration Testing Specialist | AI/LLM Security Researcher**
 
 ---
 
-## 🚀 Features
+## 👋 About Me
 
-- **WebGL + GLSL Shader cursor trail** — glowing cyan particle stream follows your mouse
-- **Custom CSS cursor** — animated dot + ring with hover/click states  
-- **Particle network background** — interactive floating nodes with connection lines
-- **Typewriter animation** — cycles through specialisations
-- **Animated terminal** — live-typing hacker terminal window in Hero
-- **Scroll reveal animations** — sections fade in on scroll
-- **Active nav highlighting** — tracks current section
-- **Responsive design** — mobile hamburger menu, adaptive grid layouts
-- **Scan-line CRT effect** — subtle cybersecurity aesthetic
+I'm **Karthikeyan V**, a Senior Security Analyst at **Accenture** with **4+ years** of dedicated offensive security experience. I specialize in finding and exploiting vulnerabilities in web applications, APIs, and cloud infrastructure before adversaries can.
 
-## 📁 Files
+### Current Role
+**Senior Security Analyst @ Accenture** (Jan 2026 – Present)
 
-```
-Karthikeyan_Portfolio/
-├── index.html       ← Main portfolio (single-file, zero dependencies)
-├── README.md        ← This file
-└── resume.pdf       ← Add your resume PDF here
-```
+### My Expertise
+- **Web Application Penetration Testing** (OWASP WSTG)
+- **API Security Assessment** (OWASP API Top 10)
+- **Microsoft PowerApps Security Testing**
+- **Cloud Security** (Azure, AWS)
+- **B2C Platform Pentesting**
+- **AI & LLM Security Research**
+- **Vulnerability Assessment & Reporting**
 
-## 🌐 Live via GitHub Pages
+### Background
+Previously, I worked at **Cognizant Technology Solutions (CTS)** as an **Associate Technical Lead** managing **Microsoft 365 (M365)** infrastructure including SharePoint, Exchange, Teams, and OneDrive — handling security patching, user support, and IAM across enterprise environments.
 
-This repo is configured for **GitHub Pages**. To enable:
-
-1. Go to your repo: https://github.com/Karthikeyan01V/Karthikeyan_Portfolio
-2. Click **Settings → Pages**
-3. Under **Source**, select `main` branch and `/ (root)`
-4. Click **Save**
-5. Your site will be live at `https://karthikeyan01v.github.io/Karthikeyan_Portfolio` within ~2 minutes
-
-## 📝 Updating Content
-
-All content is in `index.html`. Key sections to customise:
-
-| Section | What to update |
-|---|---|
-| Hero | Resume PDF link (replace `resume.pdf`) |
-| Contact | Email / phone / LinkedIn / GitHub links (already set) |
-| Projects | Add new pentest findings |
-| Experience | Update dates and descriptions |
-| Certifications | Mark OSCP+/CISSP/CCSP as earned when complete |
-
-## 🎨 Colour Theme
-
-```css
---cyan:   #00c8ff   /* primary accent */
---accent: #00ffc8   /* secondary green-cyan */
---bg:     #050810   /* darkest background */
-```
-
-## 📞 Contact
-
-- **Email:** karthikeyanv924@gmail.com
-- **Phone:** +91 807 285 7911
-- **LinkedIn:** https://www.linkedin.com/in/karthikeyan-v1898/
-- **GitHub:** https://github.com/Karthikeyan01V
+### Mission
+To break systems before the bad guys do, then help organizations defend what matters most.
 
 ---
 
-Built for roles at: Google · Meta · NVIDIA · OpenAI · CrowdStrike · Palo Alto Networks · Mandiant
+## 📊 Profile Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Views** | 0 |
+| **Years in Security** | 4+ |
+| **Pentests Completed** | 50+ |
+| **Vulnerabilities Found** | 200+ |
+| **Certifications** | 3 (Active) |
+| **Location** | Chennai, India (IST) |
+
+---
+
+## 🏆 Certifications
+
+### Earned ✓
+- **AI-901** — Azure AI Fundamentals
+- **SC-900** — Security, Compliance & Identity Fundamentals
+
+### In Progress ⟳
+- **OSCP+** — Offensive Security Certified Professional+
+- **CISSP** — Certified Information Systems Security Professional
+- **CCSP** — Certified Cloud Security Professional
+
+---
+
+## 🔧 Technical Arsenal
+
+**Web Pentesting**: Burp Suite, OWASP ZAP, SQLMap, ffuf, gobuster  
+**API Security**: Postman, JWT, OAuth 2.0, mitmproxy  
+**Cloud**: Azure, AWS, PowerApps, ScoutSuite, Prowler  
+**AI/LLM**: Prompt Injection Testing, OWASP LLM Top 10  
+**Programming**: Python, Bash, JavaScript  
+**Recon**: Nmap, Metasploit, Wireshark, Nessus, Kali Linux  
+
+---
+
+## 📞 Contact & Links
+
+- **Email**: karthikeyanv924@gmail.com
+- **Phone**: +91 807 285 7911
+- **LinkedIn**: https://www.linkedin.com/in/karthikeyan-v1898/
+- **GitHub**: https://github.com/Karthikeyan01V
+- **Portfolio**: https://karthikeyan01v.github.io/Karthikeyan_Portfolio
+
+---
+
+## 🚀 Open To
+
+✅ Offensive Security Roles  
+✅ Penetration Testing Engagements  
+✅ AI/LLM Security Research  
+✅ Consulting & Advisory  
+✅ Red Team Positions  
+
+---
+
+**Built with precision. Deployed with purpose.**  
+*Let's secure the digital world together.*
+
+---
+
+**Portfolio Version**: 2.0  
+**Last Updated**: May 21, 2025  
+**Status**: 🟢 Live & Active
