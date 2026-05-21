@@ -9,7 +9,7 @@
 I'm **Karthikeyan V**, a Senior Security Analyst at **Accenture** with **4+ years** of dedicated offensive security experience. I specialize in finding and exploiting vulnerabilities in web applications, APIs, and cloud infrastructure before adversaries can.
 
 ### Current Role
-**Senior Security Analyst @ Accenture** (Jan 2026 – Present)
+**Senior Security Analyst @ Accenture** (Feb 2026 – Present)
 
 ### My Expertise
 - **Web Application Penetration Testing** (OWASP WSTG)
