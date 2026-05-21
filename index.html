@@ -118,6 +118,9 @@ section{position:relative;z-index:1}
 .skill-tags{display:flex;flex-wrap:wrap;gap:0.45rem}
 .skill-tag{font-family:var(--mono);font-size:0.68rem;padding:0.28rem 0.6rem;background:rgba(0,200,255,0.06);border:1px solid rgba(0,200,255,0.13);color:var(--text2);letter-spacing:0.04em;transition:all 0.2s;cursor:default}
 .skill-tag:hover{background:rgba(0,200,255,0.14);color:var(--cyan);border-color:var(--cyan)}
+.skill-tag-link{font-family:var(--mono);font-size:0.68rem;padding:0.28rem 0.6rem;background:rgba(0,200,255,0.06);border:1px solid rgba(0,200,255,0.13);color:var(--text2);letter-spacing:0.04em;transition:all 0.2s;text-decoration:none;display:inline-block;cursor:none}
+.skill-tag-link:hover{background:rgba(0,200,255,0.14);color:var(--cyan);border-color:var(--cyan);transform:translateY(-1px)}
+.skill-tag-link:active{transform:translateY(0)}
 
 /* ── EXPERIENCE ─────────────────────────────────────────────── */
 #experience{padding:120px 0}
@@ -328,10 +331,14 @@ footer a:hover{color:var(--cyan)}
         <div class="skill-cat-icon">🎯</div>
         <div class="skill-cat-title">Web Pentesting</div>
         <div class="skill-tags">
-          <span class="skill-tag">Burp Suite Pro</span><span class="skill-tag">OWASP ZAP</span>
-          <span class="skill-tag">OWASP WSTG</span><span class="skill-tag">SQLMap</span>
-          <span class="skill-tag">ffuf</span><span class="skill-tag">dirsearch</span>
-          <span class="skill-tag">gobuster</span><span class="skill-tag">nikto</span>
+          <a href="https://portswigger.net/burp" target="_blank" class="skill-tag-link" title="Burp Suite Pro Documentation">Burp Suite Pro</a>
+          <a href="https://www.zaproxy.org/" target="_blank" class="skill-tag-link" title="OWASP ZAP - Free Security Scanner">OWASP ZAP</a>
+          <a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank" class="skill-tag-link" title="OWASP WSTG Guidelines">OWASP WSTG</a>
+          <a href="https://github.com/sqlmapproject/sqlmap" target="_blank" class="skill-tag-link" title="SQLMap - SQL Injection Tool">SQLMap</a>
+          <a href="https://github.com/ffuf/ffuf" target="_blank" class="skill-tag-link" title="ffuf - Web Fuzzer">ffuf</a>
+          <a href="https://github.com/maurosoria/dirsearch" target="_blank" class="skill-tag-link" title="dirsearch - Directory Brute Force">dirsearch</a>
+          <a href="https://github.com/OJ/gobuster" target="_blank" class="skill-tag-link" title="gobuster - Directory Scanner">gobuster</a>
+          <a href="https://github.com/sullo/nikto" target="_blank" class="skill-tag-link" title="nikto - Web Server Scanner">nikto</a>
           <span class="skill-tag">XSS Hunter</span><span class="skill-tag">CSRF PoC</span>
         </div>
       </div>
@@ -339,29 +346,40 @@ footer a:hover{color:var(--cyan)}
         <div class="skill-cat-icon">🔌</div>
         <div class="skill-cat-title">API Security</div>
         <div class="skill-tags">
-          <span class="skill-tag">Postman</span><span class="skill-tag">REST / GraphQL</span>
-          <span class="skill-tag">OWASP API Top 10</span><span class="skill-tag">JWT Analysis</span>
-          <span class="skill-tag">OAuth 2.0</span><span class="skill-tag">API Fuzzing</span>
-          <span class="skill-tag">mitmproxy</span><span class="skill-tag">BOLA / BFLA</span>
+          <a href="https://www.postman.com/" target="_blank" class="skill-tag-link" title="Postman - API Platform">Postman</a>
+          <a href="https://swagger.io/" target="_blank" class="skill-tag-link" title="OpenAPI/Swagger Specification">REST / GraphQL</a>
+          <a href="https://owasp.org/www-project-api-security/" target="_blank" class="skill-tag-link" title="OWASP API Security Top 10">OWASP API Top 10</a>
+          <a href="https://jwt.io/" target="_blank" class="skill-tag-link" title="JWT.io - JSON Web Tokens">JWT Analysis</a>
+          <a href="https://tools.ietf.org/html/rfc6749" target="_blank" class="skill-tag-link" title="OAuth 2.0 RFC 6749">OAuth 2.0</a>
+          <a href="https://github.com/codingo/Intruder" target="_blank" class="skill-tag-link" title="API Fuzzing Tools">API Fuzzing</a>
+          <a href="https://mitmproxy.org/" target="_blank" class="skill-tag-link" title="mitmproxy - Man-in-the-Middle Proxy">mitmproxy</a>
+          <a href="https://owasp.org/www-community/attacks/BOLA" target="_blank" class="skill-tag-link" title="BOLA - Broken Object Level Auth">BOLA / BFLA</a>
         </div>
       </div>
       <div class="skill-cat reveal reveal-delay-2">
         <div class="skill-cat-icon">☁️</div>
         <div class="skill-cat-title">Cloud Security</div>
         <div class="skill-tags">
-          <span class="skill-tag">Azure</span><span class="skill-tag">AWS</span>
-          <span class="skill-tag">MS PowerApps</span><span class="skill-tag">IAM Misconfig</span>
-          <span class="skill-tag">Storage Exposure</span><span class="skill-tag">ScoutSuite</span>
-          <span class="skill-tag">Prowler</span><span class="skill-tag">Pacu</span>
+          <a href="https://azure.microsoft.com/" target="_blank" class="skill-tag-link" title="Microsoft Azure Cloud Platform">Azure</a>
+          <a href="https://aws.amazon.com/" target="_blank" class="skill-tag-link" title="Amazon Web Services">AWS</a>
+          <a href="https://powerapps.microsoft.com/" target="_blank" class="skill-tag-link" title="Microsoft PowerApps">MS PowerApps</a>
+          <a href="https://cheatsheetseries.owasp.org/cheatsheets/Cloud_Pentesting.html" target="_blank" class="skill-tag-link" title="IAM Misconfig Assessment">IAM Misconfig</a>
+          <a href="https://azure.microsoft.com/en-us/services/storage/" target="_blank" class="skill-tag-link" title="Cloud Storage Security">Storage Exposure</a>
+          <a href="https://github.com/nccgroup/ScoutSuite" target="_blank" class="skill-tag-link" title="ScoutSuite - Multi-Cloud Auditor">ScoutSuite</a>
+          <a href="https://github.com/prowler-cloud/prowler" target="_blank" class="skill-tag-link" title="Prowler - AWS Security Assessment">Prowler</a>
+          <a href="https://github.com/RhinoSecurityLabs/pacu" target="_blank" class="skill-tag-link" title="Pacu - AWS Exploitation Framework">Pacu</a>
         </div>
       </div>
       <div class="skill-cat reveal reveal-delay-1">
         <div class="skill-cat-icon">🤖</div>
         <div class="skill-cat-title">AI / LLM Security</div>
         <div class="skill-tags">
-          <span class="skill-tag">Prompt Injection</span><span class="skill-tag">Jailbreaking</span>
-          <span class="skill-tag">LLM Fuzzing</span><span class="skill-tag">OWASP LLM Top 10</span>
-          <span class="skill-tag">Agentic AI</span><span class="skill-tag">RAG Poisoning</span>
+          <a href="https://owasp.org/www-project-llm-security/" target="_blank" class="skill-tag-link" title="OWASP LLM Security">Prompt Injection</a>
+          <a href="https://github.com/garak/garak" target="_blank" class="skill-tag-link" title="Garak - LLM Fuzzing Tool">Jailbreaking</a>
+          <a href="https://github.com/garak/garak" target="_blank" class="skill-tag-link" title="Garak - LLM Testing Framework">LLM Fuzzing</a>
+          <a href="https://owasp.org/www-project-llm-security/" target="_blank" class="skill-tag-link" title="OWASP LLM Top 10">OWASP LLM Top 10</a>
+          <a href="https://github.com/microsoft/autogen" target="_blank" class="skill-tag-link" title="AutoGen - Agentic AI Framework">Agentic AI</a>
+          <a href="https://python.langchain.com/docs/integrations/retrievers/" target="_blank" class="skill-tag-link" title="RAG - Retrieval Augmented Generation">RAG Poisoning</a>
           <span class="skill-tag">Model Inversion</span>
         </div>
       </div>
@@ -369,8 +387,10 @@ footer a:hover{color:var(--cyan)}
         <div class="skill-cat-icon">💻</div>
         <div class="skill-cat-title">Programming</div>
         <div class="skill-tags">
-          <span class="skill-tag">Python</span><span class="skill-tag">Bash</span>
-          <span class="skill-tag">JavaScript</span><span class="skill-tag">PoC Development</span>
+          <a href="https://www.python.org/" target="_blank" class="skill-tag-link" title="Python Programming Language">Python</a>
+          <a href="https://www.gnu.org/software/bash/" target="_blank" class="skill-tag-link" title="Bash Shell Scripting">Bash</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="skill-tag-link" title="JavaScript Programming">JavaScript</a>
+          <span class="skill-tag">PoC Development</span>
           <span class="skill-tag">Exploit Scripting</span><span class="skill-tag">Automation</span>
           <span class="skill-tag">Tool Chaining</span>
         </div>
@@ -379,10 +399,14 @@ footer a:hover{color:var(--cyan)}
         <div class="skill-cat-icon">🔬</div>
         <div class="skill-cat-title">Recon &amp; Infrastructure</div>
         <div class="skill-tags">
-          <span class="skill-tag">Nmap</span><span class="skill-tag">Metasploit</span>
-          <span class="skill-tag">Wireshark</span><span class="skill-tag">Nessus</span>
-          <span class="skill-tag">Qualys</span><span class="skill-tag">Kali Linux</span>
-          <span class="skill-tag">Shodan</span><span class="skill-tag">theHarvester</span>
+          <a href="https://nmap.org/" target="_blank" class="skill-tag-link" title="Nmap - Network Mapper">Nmap</a>
+          <a href="https://www.metasploit.com/" target="_blank" class="skill-tag-link" title="Metasploit Framework">Metasploit</a>
+          <a href="https://www.wireshark.org/" target="_blank" class="skill-tag-link" title="Wireshark - Network Protocol Analyzer">Wireshark</a>
+          <a href="https://www.tenable.com/products/nessus" target="_blank" class="skill-tag-link" title="Nessus - Vulnerability Scanner">Nessus</a>
+          <a href="https://www.qualys.com/" target="_blank" class="skill-tag-link" title="Qualys - Cloud Security">Qualys</a>
+          <a href="https://www.kali.org/" target="_blank" class="skill-tag-link" title="Kali Linux - Penetration Testing OS">Kali Linux</a>
+          <a href="https://www.shodan.io/" target="_blank" class="skill-tag-link" title="Shodan - Internet Device Search Engine">Shodan</a>
+          <a href="https://github.com/laramies/theHarvester" target="_blank" class="skill-tag-link" title="theHarvester - OSINT Information Gathering">theHarvester</a>
         </div>
       </div>
     </div>
@@ -403,9 +427,14 @@ footer a:hover{color:var(--cyan)}
             <div class="timeline-date">Jan 2026 — Present</div>
           </div>
           <div class="timeline-desc">
-            Leading penetration testing engagements on Accenture's internal and cloud-hosted applications, including customer-facing B2C platforms and <strong style="color:var(--cyan)">Microsoft PowerApps</strong> deployments. All web application assessments follow the <strong style="color:var(--cyan)">OWASP Web Security Testing Guide (WSTG)</strong> framework; API security testing follows the <strong style="color:var(--cyan)">OWASP API Security Top 10</strong>.
+            Leading penetration testing and vulnerability assessment engagements on <strong style="color:var(--cyan)">Accenture-hosted applications, cloud-deployed services, and internal corporate infrastructure</strong>. Key focus areas include:
             <br><br>
-            Conducting AI/LLM penetration testing for clients integrating generative AI pipelines. Identifying critical vulnerabilities including IDOR chains, authentication bypass via JWT manipulation, SSRF-to-internal-access escalation, and cloud IAM privilege escalation paths. Delivering executive and technical pentest reports with CVSS scoring, CWE mapping, and actionable remediation roadmaps.
+            • <strong style="color:var(--cyan)">Accenture Proprietary Applications</strong> — comprehensive VAPT on internal-facing and external web applications following OWASP WSTG methodology
+            <br>• <strong style="color:var(--cyan)">B2C Web Platforms</strong> — security testing on customer-facing URLs, payment flows, authentication mechanisms, and data handling
+            <br>• <strong style="color:var(--cyan)">Microsoft PowerApps Applications</strong> — security assessment of low-code/no-code PowerApps deployments, connector security, data loss prevention policies, and plug-in vulnerabilities
+            <br>• <strong style="color:var(--cyan)">Cloud-Hosted Services</strong> — Azure/AWS penetration testing covering IAM misconfigurations, storage exposure, network security, and service-to-service authentication
+            <br><br>
+            All assessments follow <strong style="color:var(--cyan)">OWASP Web Security Testing Guide (WSTG)</strong> for web applications and <strong style="color:var(--cyan)">OWASP API Security Top 10</strong> for API endpoints. Delivering detailed pentest reports with CVSS severity scoring, CWE/CVE mapping, proof-of-concept exploits, and remediation roadmaps for both development and security teams.
           </div>
           <div class="timeline-tags">
             <span class="tag">OWASP WSTG</span><span class="tag">OWASP API Top 10</span>
@@ -418,19 +447,22 @@ footer a:hover{color:var(--cyan)}
       <div class="timeline-item reveal reveal-delay-1">
         <div class="timeline-card">
           <div class="timeline-header">
-            <div><div class="timeline-role">Security Analyst</div><div class="timeline-company">Cognizant Technology Solutions (CTS)</div></div>
+            <div><div class="timeline-role">Associate Technical Lead</div><div class="timeline-company">Cognizant Technology Solutions (CTS)</div></div>
             <div class="timeline-date">Mar 2022 — Dec 2025</div>
           </div>
           <div class="timeline-desc">
-            Conducted 50+ web application penetration tests across banking, e-commerce, and healthcare verticals. Delivered API security assessments using OWASP API Top 10 methodology — uncovering BOLA, mass assignment, and sensitive data exposure vulnerabilities. Performed vulnerability research on public test environments including <strong style="color:var(--cyan)">demo.testfire.net</strong> and the <strong style="color:var(--cyan)">Acunetix test environment</strong>, documenting injection flaws, broken authentication chains, and misconfiguration exploits with full PoC write-ups and CWE mapping.
+            Led technical support and operations for <strong style="color:var(--cyan)">Microsoft 365 (M365) SaaS applications</strong> across enterprise deployments. Primary focus on <strong style="color:var(--cyan)">SharePoint and Exchange platforms</strong> — managed monthly security patching, updates deployment, and production stability.
             <br><br>
-            Built custom Python exploits for PoC demonstration, authored detailed technical and executive security reports, and initiated internal research into LLM prompt injection as AI integrations entered client environments.
+            Administered <strong style="color:var(--cyan)">SharePoint Online, SharePoint 2016, SharePoint 2019, and SharePoint Server (SPSE)</strong> environments. Handled end-to-end user support, permission management, site provisioning, and governance compliance. Managed <strong style="color:var(--cyan)">Microsoft Teams, OneDrive, and Exchange Online</strong> infrastructure — user provisioning, mailbox administration, collaboration features, and data security.
+            <br><br>
+            Implemented security best practices across M365 workloads, managed user access controls, monitored compliance policies, and responded to incidents. Provided tier-2/3 technical escalation support and documented operational procedures for knowledge transfer.
           </div>
           <div class="timeline-tags">
-            <span class="tag">Web Pentesting</span><span class="tag">API Security</span>
-            <span class="tag">Vulnerability Assessment</span><span class="tag">Burp Suite</span>
-            <span class="tag">Python Exploits</span><span class="tag">LLM Research</span>
-            <span class="tag">OWASP WSTG</span>
+            <span class="tag">Microsoft 365 (M365)</span><span class="tag">SharePoint Online</span>
+            <span class="tag">SharePoint 2016/2019</span><span class="tag">Exchange Online</span>
+            <span class="tag">Microsoft Teams</span><span class="tag">OneDrive</span>
+            <span class="tag">Security Patching</span><span class="tag">User Support</span>
+            <span class="tag">IAM</span><span class="tag">Compliance</span>
           </div>
         </div>
       </div>
@@ -530,20 +562,13 @@ footer a:hover{color:var(--cyan)}
     <p class="section-sub reveal reveal-delay-2" style="margin-bottom:3rem">Active Microsoft/Azure certifications and high-value offensive security credentials in progress.</p>
     <div class="certs-grid">
       <div class="cert-card active reveal">
-        <div class="cert-badge azure">🛡️</div>
-        <div class="cert-name">AZ-500</div>
-        <div class="cert-org">Microsoft Azure</div>
-        <div class="cert-desc">Azure Security Engineer Associate — cloud security posture, identity &amp; access, threat protection.</div>
+        <div class="cert-badge azure">🤖</div>
+        <div class="cert-name">AI-901</div>
+        <div class="cert-org">Microsoft AI Fundamentals</div>
+        <div class="cert-desc">Azure AI Fundamentals — AI workloads, machine learning concepts, responsible AI principles, Azure AI services &amp; LLM.</div>
         <span class="cert-status earned">✓ Earned</span>
       </div>
       <div class="cert-card active reveal reveal-delay-1">
-        <div class="cert-badge ms">🔒</div>
-        <div class="cert-name">SC-200</div>
-        <div class="cert-org">Microsoft Security</div>
-        <div class="cert-desc">Security Operations Analyst Associate — Microsoft Sentinel, Defender XDR, threat hunting.</div>
-        <span class="cert-status earned">✓ Earned</span>
-      </div>
-      <div class="cert-card active reveal reveal-delay-2">
         <div class="cert-badge ms">🌐</div>
         <div class="cert-name">SC-900</div>
         <div class="cert-org">Microsoft Security</div>
@@ -695,7 +720,7 @@ footer a:hover{color:var(--cyan)}
     <a href="https://www.linkedin.com/in/karthikeyan-v1898/" target="_blank">LinkedIn</a> ·
     <a href="https://github.com/Karthikeyan01V" target="_blank">GitHub</a>
   </p>
-  <p style="margin-top:0.5rem;font-size:0.62rem;color:var(--text3)">AZ-500 · SC-200 · SC-900 · OSCP+ (In Progress) · CISSP (In Progress) · CCSP (In Progress)</p>
+  <p style="margin-top:0.5rem;font-size:0.62rem;color:var(--text3)">AI-901 · SC-900 · OSCP+ (In Progress) · CISSP (In Progress) · CCSP (In Progress)</p>
 </footer>
 
 <!-- ════════════════════════════════════════════════════════════
